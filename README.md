@@ -13,6 +13,7 @@ Appium Version : 1.17.1
 7. react-native start
 8. react-native run-android, we need run this command to generate your [Debug APK](android/app/build/outputs/apk/debug)
 9. make sure app-debug.apk has been generated in [Debug APK](android/app/build/outputs/apk/debug)
+10. open [Test File](__tests__/myTests.test.js) and change your debug apk path, it should be in 'your_project_path/android/app/build/outputs/apk/debug/app-debug.apk'
 10. make sure you add this export JAVA_HOME=$(/usr/libexec/java_home) in your ~/.bashrc or ~/.bash_profile
 11. open your appium and click start server
 12. npm test
