@@ -6,7 +6,7 @@ This is an example for Automation Testing in React Native using Appium.
 2. npm install
 3. npm install appium-doctor -g
 4. open your emulator
-5. change your emulator name in [Test FIle](__tests__/myTests.test.js)
+5. change your emulator name in [Test File](__tests__/myTests.test.js)
 6. react-native start
 7. react-native run-android
 8. make sure app-debug.apk has been generated in /your_project_path/android/app/build/outputs/apk/debug/app-debug.apk
