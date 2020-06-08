@@ -11,6 +11,7 @@ This is an example for Automation Testing in React Native using Appium.
 7. react-native run-android
 8. make sure app-debug.apk has been generated in /your_project_path/android/app/build/outputs/apk/debug/app-debug.apk
 9. make sure you add this export JAVA_HOME=$(/usr/libexec/java_home) in your ~/.bashrc or ~/.bash_profile
+11. open your appium and click start server
 10. npm test
 
 # Pluggin Installed
