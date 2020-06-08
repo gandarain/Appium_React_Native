@@ -1,6 +1,6 @@
 # Basic Example for Automation Testing
 This is an example for Automation Testing in React Native using Appium. <br />
-React Native version : 0.62 <br/>
+React Native Version : 0.62 <br/>
 Appium Version : 1.17.1
 
 # How To Run
