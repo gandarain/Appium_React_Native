@@ -1,21 +1,24 @@
 # Basic Example for Automation Testing
-This is an example for Automation Testing in React Native using Appium.
+This is an example for Automation Testing in React Native using Appium. <br />
+React Native version : 0.62 <br/>
+Appium Version : 1.17.1
 
 # How To Run
-1. make sure you already have an appium dekstop app or you can install it from this link [appium](https://github.com/appium/appium-desktop/releases/tag/v1.13.0)
-2. npm install
-3. npm install appium-doctor -g
-4. open your emulator
-5. change your emulator name in [Test File](__tests__/myTests.test.js)
-6. react-native start
-7. react-native run-android
-8. make sure app-debug.apk has been generated in /your_project_path/android/app/build/outputs/apk/debug/app-debug.apk
-9. make sure you add this export JAVA_HOME=$(/usr/libexec/java_home) in your ~/.bashrc or ~/.bash_profile
+1. clone this repo
+2. make sure you already have an appium dekstop app or you can install it from this link [appium](https://github.com/appium/appium-desktop/releases/tag/v1.13.0)
+3. npm install
+4. npm install appium-doctor -g
+5. open your emulator
+6. change your emulator name in [Test File](__tests__/myTests.test.js)
+7. react-native start
+8. react-native run-android, we need run this command to generate your [Debug APK](android/app/build/outputs/apk/debug/app-debug.apk)
+9. make sure app-debug.apk has been generated in [Debug APK](android/app/build/outputs/apk/debug/app-debug.apk)
+10. make sure you add this export JAVA_HOME=$(/usr/libexec/java_home) in your ~/.bashrc or ~/.bash_profile
 11. open your appium and click start server
-10. npm test
+12. npm test
 
 # Pluggin Installed
-- wd <br/>
+- wd (Web Driver) <br/>
 (https://www.npmjs.com/package/wd)
 
 # Source
