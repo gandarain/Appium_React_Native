@@ -21,6 +21,8 @@ Appium Version : 1.17.1
 # Pluggin Installed
 - wd (Web Driver) <br/>
 (https://www.npmjs.com/package/wd)
+- react navigation <br/>
+(https://reactnavigation.org/docs/getting-started)
 
 # Source
 - [React Native 0.60 UI Testing with Appium in 10 Easy Steps](https://medium.com/@mahmoudsnatch/react-native-0-60-ui-testing-with-appium-in-10-easy-steps-61e68ae6eb4c)
