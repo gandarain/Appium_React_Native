@@ -9,9 +9,6 @@ const config = {
 }
 const driver = wd.promiseChainRemote('localhost', PORT)
 
-import LoginScreen from '../src/screen/loginScreen/login'
-import HomeScreen from '../src/screen/homeScreen/home'
-
 beforeAll(async () => {
   await driver.init(config)
   await driver.sleep(4000)
@@ -23,12 +20,9 @@ test('login screen test', async () => {
   expect(await driver.hasElementByAccessibilityId('buttonLogin')).toBe(true)
   const element = await driver.elementByAccessibilityId('buttonLogin')
   await element.click()
-})
 
-// test('home screen test', async () => {
-//   let contexts = await driver.contexts()
-//   console.log('contexts')
-//   expect(await driver.hasElementByAccessibilityId('buttonHome')).toBe(true)
-//   const element = await driver.elementByAccessibilityId('buttonHome')
-//   await element.click()
-// })
+  await driver.sleep(1000)
+  expect(await driver.hasElementByAccessibilityId('buttonHome')).toBe(true)
+  const element2 = await driver.elementByAccessibilityId('buttonHome')
+  await element2.click()
+})
